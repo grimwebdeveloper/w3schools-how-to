@@ -1,0 +1,44 @@
+/* -------------------------------- CSS RESET ------------------------------- */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------- ROOT ---------------------------------- */
+html{
+    font-size: 62.5%;
+}
+
+/* ------------------------------ BODY ELEMENT ------------------------------ */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------- REST STYLE ------------------------------- */
+#horizontal-icon-bar{
+    display: flex;
+    background-color: grey;
+}
+
+#horizontal-icon-bar>div{
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+i{
+    font-size: 5rem;
+    color: white;
+}
+
+.active{
+    background-color: green;
+}
+
+#horizontal-icon-bar>div:not(.active):hover{
+    background-color: black;
+}
