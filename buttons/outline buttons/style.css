@@ -1,0 +1,82 @@
+/* -------------------------------- CSS RESET ------------------------------- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* ------------------------------ ROOT ELEMENT ------------------------------ */
+html {
+  font-size: 62.5%;
+}
+
+/* ------------------------------ GLOBAL STYLE ------------------------------ */
+.btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: white;
+  padding: 15px 45px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* ------------------------------- REST STYLE ------------------------------- */
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.success {
+  border-color: green;
+  color: green;
+}
+
+.info {
+  border-color: deepskyblue;
+  color: deepskyblue;
+}
+
+.warning {
+  border-color: orange;
+  color: orange;
+}
+
+.danger {
+  border-color: red;
+  color: red;
+}
+
+.default {
+  border-color: lightgray;
+  color: lightgray;
+}
+
+.success:hover {
+  background-color: green;
+}
+
+.info:hover {
+  background-color: deepskyblue;
+}
+
+.warning:hover {
+  background-color: orange;
+}
+
+.danger:hover {
+  background-color: red;
+}
+
+.default:hover {
+  background-color: lightgray;
+}
+
+button:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
